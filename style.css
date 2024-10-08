@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #2b8a92;
+    color: #000000;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5%;
+    margin-bottom: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+ 
+}
+
+.profile-pic {
+    width: 145px;
+    height: 200px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+  
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 2;
+    color: #000000;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    color: #3498db;
+}
+
+h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul.skills-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.skills-list li {
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.experience-item, .education-item, .project-item {
+    margin-bottom: 15px;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;         
+    margin-top: 20px;
+}
+
+.skill-icon {
+    width: 50px;             
+    height: 50px;
+    margin: 10px;            
+    transition: transform 0.2s; 
+}
+
+.skill-icon:hover {
+    transform: scale(1.1); 
+}
+
